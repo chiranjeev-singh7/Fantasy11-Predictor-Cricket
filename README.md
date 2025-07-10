@@ -6,28 +6,31 @@ This project is a complete pipeline for predicting the **optimal Dream11 fantasy
 
 ## 📁 Project Structure
 
+```text
 Fantasy11-Predictor/
 │
 ├── data/
-│ ├── raw/ # Original IPL datasets (deliveries.csv, matches.csv)
-│ ├── processed/ # Fantasy point calculations and match preprocessing
-│ └── features/ # Contextual + historical features for each player
+│   ├── raw/                # Original IPL datasets (deliveries.csv, matches.csv)
+│   ├── processed/          # Fantasy point calculations and match preprocessing
+│   └── features/           # Contextual + historical features for each player
 │
 ├── models/
-│ └── model_dream11.pkl # Trained logistic regression model
+│   └── model_dream11.pkl   # Trained logistic regression model
 │
 ├── notebook/
-│ └── model_dream11-2.ipynb # Model training and evaluation notebook
+│   └── model_dream11-2.ipynb   # Model training and evaluation notebook
 │
 ├── src/
-│ ├── data_loader.py
-│ ├── fantasy_points.py
-│ ├── feature_engineering.py
-│ ├── save_matches.py
-│ └── dream11_predictor.py
+│   ├── data_loader.py
+│   ├── fantasy_points.py
+│   ├── feature_engineering.py
+│   ├── save_matches.py
+│   └── dream11_predictor.py
 │
 ├── requirements.txt
 └── README.md
+```
+
 
 
 ---
